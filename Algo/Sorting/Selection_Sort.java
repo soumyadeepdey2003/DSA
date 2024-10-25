@@ -33,7 +33,7 @@ public class Selection_Sort
 // select the min element and move the element to  the fst position of the unsorted part of array 
 	public static int[] sort(int [] a)
 	{
-		int n=a.length,min=0,pos=0,temp;
+		int n=a.length,min=0,pos=0;
 		for(int i=0;i<n-1;i++)
 		{       
                         min=a[i];
