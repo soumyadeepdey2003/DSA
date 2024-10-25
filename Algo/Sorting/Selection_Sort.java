@@ -34,10 +34,10 @@ public class Selection_Sort
 	public static int[] sort(int [] a)
 	{
 		int n=a.length,min=0,pos=0,temp;
-		for(int i=0;i<n;i++)
+		for(int i=0;i<n-1;i++)
 		{       
                         min=a[i];
-			for(int j=i;j<n;j++)
+			for(int j=i+1;j<n;j++)
 			{
 				if(min>a[j])
 				{
