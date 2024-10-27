@@ -31,6 +31,8 @@ public class Insertion_Sort
 	
     	}
 // tack a window from small to big and apply sorting by placing any element to its right position by just swaping it with its previous big element
+//this is mainly base on insert any in its currect position 
+
 
 	public static int[] sort(int [] a)
 	{
