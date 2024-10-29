@@ -32,9 +32,10 @@ public class Quick_Sort
     	}
 
 
-// Pick up a pivot element for the array 
+// Pick up a pivot element from the array 
 //place the pivot in its correct place in sorted array 
-//all the small values from pivot is placed in left side of pivot and all the large elements  are placed in right to pivot 
+//all the small values from pivot is placed in left side of pivot and all the large elements  are placed in right to pivot :
+//by using 2 pointers one pointing to low and another pointing to high . Then pointer 1 will move until the value present in it is greater than the pivot and pointer 2 will move until the //value //present in it is less than the pivot , then swap pointer 1 and 2, this process wil continue until pointer 2 is less than or equal to pointer 1. then update the position of pivot //with pointer 2
 //then apply above point as recursion for both left and right side
 
 	public static int position(int [] a,int s,int e)
